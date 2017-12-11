@@ -12,6 +12,6 @@ public class C1E5 {
         double number;
         number = in.nextDouble();
 
-        System.out.println("default value is printed when large double no is converted to int " + (int)number);
+        System.out.println("default value is printed when large double number is converted to int " + (int)number);
     }
 }
