@@ -1,5 +1,7 @@
 package chapter2;
 
+import java.util.Random;
+
 /**
  Implement a class Car that models a car traveling along the x-axis, consuming gas as it moves.
  Provide methods to drive by a given number of miles, to add a given number of gallons to the
@@ -10,7 +12,10 @@ package chapter2;
  */
 
 
+
 public class C2E9 {
+
+
 
     public static void main(String  args[])
     {
