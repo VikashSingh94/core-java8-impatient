@@ -1,8 +1,17 @@
+/**
+
+ Using only the conditional operator, write a program that reads three integers and prints the
+ largest. Repeat with Math.max.
+
+ *
+ */
+
+
 package chapter1;
 
 import  java.util.Scanner;
 
-public class C1E3 {
+public class E3 {
 
     private static int maximumNo(int array[])
     {
