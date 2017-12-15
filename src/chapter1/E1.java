@@ -1,8 +1,18 @@
+
+
+/**
+
+ Write a program that reads an integer and prints it in binary, octal, and hexadecimal. Print the
+ reciprocal as a hexadecimal floating-point number.
+
+ *
+ */
+
 package chapter1;
 
 import java.util.Scanner;
 
-public class C1E1 {
+public class E1 {
 
 
     public static void  main(String[] args) {
