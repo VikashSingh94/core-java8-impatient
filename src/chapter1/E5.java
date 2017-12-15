@@ -1,8 +1,15 @@
+/**
+ What happens when you cast a double to an int that is larger than the largest possible int
+ value? Try it out.
+ *
+ */
+
+
 package chapter1;
 
 import java.util.Scanner;
 
-public class C1E5 {
+public class E5 {
 
 
 
