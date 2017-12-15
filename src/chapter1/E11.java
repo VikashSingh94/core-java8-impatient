@@ -1,8 +1,16 @@
+/**
+
+ Write a program that reads a line of text and prints all characters that are not ASCII, together
+ with their Unicode values.
+
+ *
+ */
+
 package chapter1;
 
 import java.util.Scanner;
 
-public class C1E11 {
+public class E11 {
 
     public static void main(String args[])
     {
