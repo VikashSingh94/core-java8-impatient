@@ -1,8 +1,14 @@
+/**
+
+ Write a program that reads a string and prints all of its nonempty substrings.
+
+ **/
+
 package chapter1;
 
 import java.util.Scanner;
 
-public class C1E8 {
+public class E8 {
 
     private static void subString(String string) {
         int length = string.length();
