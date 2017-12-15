@@ -1,6 +1,3 @@
-package chapter2;
-
-import java.util.Random;
 
 /**
  Implement a class Car that models a car traveling along the x-axis, consuming gas as it moves.
@@ -11,9 +8,10 @@ import java.util.Random;
  *
  */
 
+package chapter2;
 
 
-public class C2E9 {
+public class E9 {
 
 
 
