@@ -1,9 +1,18 @@
+
+
+/**
+ *
+ Write a program that computes the factorial n! = 1 × 2 × . . . × n, using BigInteger.
+ Compute the factorial of 1000.
+ *
+ */
+
 package chapter1;
 
 import java.util.Scanner;
 import java.math.BigInteger;
 
-public class C1E6 {
+public class E6 {
 
     private static BigInteger factorial( int number)
     {
