@@ -1,10 +1,18 @@
+/**
+
+ Write a program that prints a lottery combination, picking six distinct numbers between 1 and
+ 49. To pick six distinct numbers, start with an array list filled with 1 . . . 49. Pick a random
+ index and remove the element. Repeat six times. Print the result in sorted order.
+
+ **/
+
 package chapter1;
 
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Arrays;
 
-public class C1E13 {
+public class E13 {
 
     private static int[] printLottery() {
         ArrayList<Integer> array = new ArrayList<>();
