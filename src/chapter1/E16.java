@@ -1,14 +1,15 @@
-package chapter1;
-
 /**
 
  Improve the average method so that it is called with at least one parameter.
 
  *
  */
+
+package chapter1;
+
 public class E16 {
 
-    //average function with at least one parameter
+    //Improved average function with at least one parameter
     public static double average(double first , double... args)
     {
         double result =  first;
@@ -16,7 +17,7 @@ public class E16 {
         {
             result += no;
         }
-        return (result/args.length);
+        return (result/(args.length+1));
     }
 
     public static void main(String args[])
