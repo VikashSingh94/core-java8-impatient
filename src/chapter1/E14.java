@@ -19,7 +19,7 @@ package chapter1;
 import java.io.*;
 
 
-public class C1E14 {
+public class E14 {
 
 
     public static  void main(String args[]) throws IOException
