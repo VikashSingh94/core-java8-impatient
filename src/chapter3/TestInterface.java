@@ -39,7 +39,7 @@ class MyClass implements MyInterface , MyInterface2
 }
 
 
-public class E1 {
+public class TestInterface{
 
 
 
