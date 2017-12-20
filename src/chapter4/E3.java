@@ -1,5 +1,10 @@
 package chapter4;
 
+/**
+ * Make the instance variables x and y of the Point class in Exercise 1 protected. Show
+ that the LabeledPoint class can access these variables only in LabeledPoint instances.
+ */
+
 
 class  Point
 {
