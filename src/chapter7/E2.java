@@ -1,4 +1,4 @@
-package chapter6;
+package chapter7;
 /**
  * In an array list of strings, make each string uppercase. Do this with (a) an iterator, (b) a loop
  over the index values
