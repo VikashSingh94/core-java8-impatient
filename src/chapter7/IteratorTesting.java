@@ -1,4 +1,4 @@
-package chapter6;
+package chapter7;
 /**
  *
  * Print the odd element in list using the iterator
