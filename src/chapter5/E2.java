@@ -1,15 +1,20 @@
 /**
- *
+ *E2
  * Write a method public double sumOfValues(String filename) throws
  ... that calls the preceding method and returns the sum of the values in the file. Propagate any
  exceptions to the caller.
  *
+ * E3
+ * Write a program that calls the preceding method and prints the result. Catch the exceptions and
+ provide feedback to the user about any error conditions
+
+
  * @author Vikash Singh
  * @Date   2 Jan 2018
  *
  */
 
-
+//Both Exercise 2 and 3 are combined
 
 package chapter5;
 
@@ -28,6 +33,7 @@ public class E2 {
         {
             temp += in.nextDouble();
         }
+
         return temp;
     }
 
@@ -40,7 +46,7 @@ public class E2 {
         }
         catch (IOException io)
         {
-            System.out.println("IO Exception Handle  in the main");
+            System.out.println(io);
         }
     }
 }
