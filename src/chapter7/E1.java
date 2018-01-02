@@ -11,7 +11,7 @@
 
 
 
-package chapter6;
+package chapter7;
 
 import java.util.Arrays;
 import java.util.HashSet;
