@@ -45,6 +45,7 @@ class VikStructureComparatorString implements Comparator< VikStructure<String> >
         return  obj2.getkey().compareTo(obj1.getkey());
     }
 }
+
 public class Generics {
 
     public static void main(String args[])
