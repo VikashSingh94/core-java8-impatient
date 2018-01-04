@@ -9,6 +9,7 @@
 package chapter6;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 
 class VikStructure<T>
@@ -57,7 +58,7 @@ public class Generics {
             vikStructure[i] = new VikStructure(i);
         }
 
-       // Collections.sort(vikStructure, new VikStructureComparator());
+        //Collections.sort(vikStructure, new VikStructureComparator());
        Arrays.sort(vikStructure);
 
         Arrays.stream(vikStructure).forEach(i -> System.out.println(i.getkey()));
