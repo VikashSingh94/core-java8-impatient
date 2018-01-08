@@ -51,7 +51,8 @@ public class E11 {
 
         ArrayList<String> shuffleWords = new ArrayList<>();
 
-        Collections.addAll(shuffleWords,words);
+       for(String str : words)
+           shuffleWords.add(str);
 
 
         try
